@@ -1,8 +1,8 @@
 function truncate(stack, limit) {
     while (stack.length > limit) {
-        stack.shift();
+        stack.shift()
     }
-}
+};
 /**
  * ''                 null
  * [1]                null, 1
@@ -33,7 +33,7 @@ export default class editUndo {
         this.clear()
     }
     changed() {
-        // toDo
+        // toDo list
     }
     /* @param  {[Object]} current 当前保存的对象 */
     save(current) {
